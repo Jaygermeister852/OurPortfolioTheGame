@@ -1,0 +1,354 @@
+fileFormatVersion: 2
+guid: 96e084dbac032c641a287cb7e636c6e8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 606299655042274788
+    second: Sprites_Rock-Light_0
+  - first:
+      213: 3758684736730825115
+    second: Sprites_Rock-Light_1
+  - first:
+      213: 1351514242485620349
+    second: Sprites_Rock-Light_2
+  - first:
+      213: -6668273458745142345
+    second: Sprites_Rock-Light_3
+  - first:
+      213: -1329299963690823339
+    second: Sprites_Rock-Light_4
+  - first:
+      213: -764489263608951335
+    second: Sprites_Rock-Light_5
+  - first:
+      213: -2259583891286767671
+    second: Sprites_Rock-Light_6
+  - first:
+      213: -7533941299605821626
+    second: Sprites_Rock-Light_7
+  - first:
+      213: 3440859264255812367
+    second: Sprites_Rock-Light_8
+  - first:
+      213: 6716040850451724860
+    second: Sprites_Rock-Light_9
+  - first:
+      213: 3686845759364757925
+    second: Sprites_Rock-Light_10
+  - first:
+      213: 6062038043949864635
+    second: Sprites_Rock-Light_11
+  - first:
+      213: 4673660576293042509
+    second: Sprites_Rock-Light_12
+  - first:
+      213: -6705791060642777971
+    second: Sprites_Rock-Light_13
+  - first:
+      213: 6182230963725431185
+    second: Sprites_Rock-Light_14
+  - first:
+      213: -6042075289832857102
+    second: Sprites_Rock-Light_15
+  - first:
+      213: 8035182602562602865
+    second: Sprites_Rock-Light_16
+  - first:
+      213: 4559415450987319253
+    second: Sprites_Rock-Light_17
+  - first:
+      213: 3338794172615742114
+    second: Sprites_Rock-Light_18
+  - first:
+      213: -1556283513855332290
+    second: Sprites_Rock-Light_19
+  - first:
+      213: -1745081145057022779
+    second: Sprites_Rock-Light_20
+  - first:
+      213: -1138095299924673704
+    second: Sprites_Rock-Light_21
+  - first:
+      213: -565442827956044004
+    second: Sprites_Rock-Light_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 125
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sprites_Rock-Light_4
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 71
+        width: 211
+        height: 106
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 551d448d9b06d8de0800000000000000
+      internalID: -1329299963690823339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites_Rock-Light_7
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 68
+        width: 187
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 647a956fd40127790800000000000000
+      internalID: -7533941299605821626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites_Rock-Light_10
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 70
+        width: 171
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a977943fae4a2330800000000000000
+      internalID: 3686845759364757925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites_Rock-Light_11
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 69
+        width: 61
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb61980ab7fa02450800000000000000
+      internalID: 6062038043949864635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites_Rock-Light_12
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 53
+        width: 176
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d49b1b2388d2cd040800000000000000
+      internalID: 4673660576293042509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites_Rock-Light_16
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 66
+        width: 81
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 177842b3104b28f60800000000000000
+      internalID: 8035182602562602865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 380b4b56db6fff343bf9a55c262144e6
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Sprites_Rock-Light_0: 606299655042274788
+      Sprites_Rock-Light_1: 3758684736730825115
+      Sprites_Rock-Light_10: 3686845759364757925
+      Sprites_Rock-Light_11: 6062038043949864635
+      Sprites_Rock-Light_12: 4673660576293042509
+      Sprites_Rock-Light_13: -6705791060642777971
+      Sprites_Rock-Light_14: 6182230963725431185
+      Sprites_Rock-Light_15: -6042075289832857102
+      Sprites_Rock-Light_16: 8035182602562602865
+      Sprites_Rock-Light_17: 4559415450987319253
+      Sprites_Rock-Light_18: 3338794172615742114
+      Sprites_Rock-Light_19: -1556283513855332290
+      Sprites_Rock-Light_2: 1351514242485620349
+      Sprites_Rock-Light_20: -1745081145057022779
+      Sprites_Rock-Light_21: -1138095299924673704
+      Sprites_Rock-Light_22: -565442827956044004
+      Sprites_Rock-Light_3: -6668273458745142345
+      Sprites_Rock-Light_4: -1329299963690823339
+      Sprites_Rock-Light_5: -764489263608951335
+      Sprites_Rock-Light_6: -2259583891286767671
+      Sprites_Rock-Light_7: -7533941299605821626
+      Sprites_Rock-Light_8: 3440859264255812367
+      Sprites_Rock-Light_9: 6716040850451724860
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

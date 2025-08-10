@@ -1,0 +1,354 @@
+fileFormatVersion: 2
+guid: 7ac36de196fc9a147940c82067a3ae52
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8533284075586729634
+    second: Sprites_Rock-Mid_0
+  - first:
+      213: -9205022443625064668
+    second: Sprites_Rock-Mid_1
+  - first:
+      213: 7185891267769176376
+    second: Sprites_Rock-Mid_2
+  - first:
+      213: 4803646655790004152
+    second: Sprites_Rock-Mid_3
+  - first:
+      213: -1006594564271327172
+    second: Sprites_Rock-Mid_4
+  - first:
+      213: 196573623445799673
+    second: Sprites_Rock-Mid_5
+  - first:
+      213: -3596267584916185466
+    second: Sprites_Rock-Mid_6
+  - first:
+      213: -8672126315193567741
+    second: Sprites_Rock-Mid_7
+  - first:
+      213: 4922562760839526747
+    second: Sprites_Rock-Mid_8
+  - first:
+      213: -4245286824112963470
+    second: Sprites_Rock-Mid_9
+  - first:
+      213: -7854753272314166452
+    second: Sprites_Rock-Mid_10
+  - first:
+      213: 8992861772190120002
+    second: Sprites_Rock-Mid_11
+  - first:
+      213: 4517526786430529433
+    second: Sprites_Rock-Mid_12
+  - first:
+      213: -3517708318369744994
+    second: Sprites_Rock-Mid_13
+  - first:
+      213: -3344814372988617609
+    second: Sprites_Rock-Mid_14
+  - first:
+      213: 2344601292105793425
+    second: Sprites_Rock-Mid_15
+  - first:
+      213: 5406926502887375401
+    second: Sprites_Rock-Mid_16
+  - first:
+      213: -3418362859791739124
+    second: Sprites_Rock-Mid_17
+  - first:
+      213: -973005576297114840
+    second: Sprites_Rock-Mid_18
+  - first:
+      213: 1317843877485822828
+    second: Sprites_Rock-Mid_19
+  - first:
+      213: -1414047256628316912
+    second: Sprites_Rock-Mid_20
+  - first:
+      213: 8982940551218700083
+    second: Sprites_Rock-Mid_21
+  - first:
+      213: -7788594288982659551
+    second: Sprites_Rock-Mid_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 125
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sprites_Rock-Mid_4
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 71
+        width: 211
+        height: 105
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c38b4c3b39bd702f0800000000000000
+      internalID: -1006594564271327172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites_Rock-Mid_7
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 68
+        width: 187
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 306f19f201b66a780800000000000000
+      internalID: -8672126315193567741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites_Rock-Mid_10
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 70
+        width: 170
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c43806dd38f4ef290800000000000000
+      internalID: -7854753272314166452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites_Rock-Mid_11
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 70
+        width: 62
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 248f495b2201dcc70800000000000000
+      internalID: 8992861772190120002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites_Rock-Mid_12
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 53
+        width: 175
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99fe0886daa71be30800000000000000
+      internalID: 4517526786430529433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites_Rock-Mid_16
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 67
+        width: 81
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9224f3bd103490b40800000000000000
+      internalID: 5406926502887375401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 328912826d79a274bb7a32bd52aaf893
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Sprites_Rock-Mid_0: 8533284075586729634
+      Sprites_Rock-Mid_1: -9205022443625064668
+      Sprites_Rock-Mid_10: -7854753272314166452
+      Sprites_Rock-Mid_11: 8992861772190120002
+      Sprites_Rock-Mid_12: 4517526786430529433
+      Sprites_Rock-Mid_13: -3517708318369744994
+      Sprites_Rock-Mid_14: -3344814372988617609
+      Sprites_Rock-Mid_15: 2344601292105793425
+      Sprites_Rock-Mid_16: 5406926502887375401
+      Sprites_Rock-Mid_17: -3418362859791739124
+      Sprites_Rock-Mid_18: -973005576297114840
+      Sprites_Rock-Mid_19: 1317843877485822828
+      Sprites_Rock-Mid_2: 7185891267769176376
+      Sprites_Rock-Mid_20: -1414047256628316912
+      Sprites_Rock-Mid_21: 8982940551218700083
+      Sprites_Rock-Mid_22: -7788594288982659551
+      Sprites_Rock-Mid_3: 4803646655790004152
+      Sprites_Rock-Mid_4: -1006594564271327172
+      Sprites_Rock-Mid_5: 196573623445799673
+      Sprites_Rock-Mid_6: -3596267584916185466
+      Sprites_Rock-Mid_7: -8672126315193567741
+      Sprites_Rock-Mid_8: 4922562760839526747
+      Sprites_Rock-Mid_9: -4245286824112963470
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
