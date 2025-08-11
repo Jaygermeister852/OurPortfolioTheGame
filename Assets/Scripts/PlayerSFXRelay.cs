@@ -43,6 +43,6 @@ public class PlayerSFXRelay : MonoBehaviour
 
     public void PlayLand()
     {
-        gameManager.SFXManager.PlayInterruptible(landClip);
+        gameManager.SFXManager.PlayPersistent(landClip);
     }
 }

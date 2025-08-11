@@ -27,6 +27,7 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 moveInput;
     private Animator animator;
+    private int idleLoopCount;
 
 
     // ------------------- LifeCycle -------------------
@@ -40,12 +41,13 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
+        CheckGrounded();
+
         if (isFrozen)
         {
             return;
         }
 
-        CheckGrounded();
         Move();
         HandleJump();
     }
@@ -83,8 +85,9 @@ public class PlayerController : MonoBehaviour
     {
         if (jumpQueued && isGrounded)
         {
-            rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse); 
+            sfxRelay.PlayJump();  //Plays jump sound
 
+            rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
 
             jumpQueued = false;
         }
@@ -125,7 +128,6 @@ public class PlayerController : MonoBehaviour
         if (context.started)
         {
             jumpQueued = true;
-            sfxRelay.PlayJump();  //Plays jump sound
         }
 
         if (context.canceled)
@@ -145,5 +147,40 @@ public class PlayerController : MonoBehaviour
             Gizmos.color = Color.yellow;
             Gizmos.DrawWireSphere(groundCheck.position, groundCheckRadius);
         }
+    }
+
+
+    // ------------------- Idle Animation -------------------
+
+
+    public void OnIdleLoop() // called by the Idle clip's animation event
+    {
+        idleLoopCount++;
+
+        if (idleLoopCount >= 5)
+        {
+            ResetIdleLoopCount();
+            animator.SetTrigger("IsDancing");
+        }
+
+
+    }
+
+    public void OnDancingLoop()
+    {
+        idleLoopCount++;
+
+        if (idleLoopCount >= 3)
+        {
+            ResetIdleLoopCount();
+            animator.SetTrigger("IsSleeping");
+        }
+    }
+
+
+
+    public void ResetIdleLoopCount()
+    {
+        idleLoopCount = 0;
     }
 }

@@ -9,11 +9,41 @@ EditorBuildSettings:
     path: Assets/Scenes/Lobby.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
+    path: Assets/Scenes/ArriveEarly.unity
+    guid: 4df2a3902bb5b7143b11c025102d99d3
+  - enabled: 1
+    path: Assets/Scenes/Artmap.unity
+    guid: f243f172c7f28d74c89ac7e4a23e0c3d
+  - enabled: 1
+    path: Assets/Scenes/ArtOfCaring.unity
+    guid: f65b210c665e235488bfc84f6c454491
+  - enabled: 1
+    path: Assets/Scenes/Betsy.unity
+    guid: 16191e45a185cc142843d7bbd4b62b50
+  - enabled: 1
+    path: Assets/Scenes/FortuneCat.unity
+    guid: 4c554871cd7fa584da5ab9a5cf104da3
+  - enabled: 1
+    path: Assets/Scenes/GiftOfAWish.unity
+    guid: 8ec2652a70a8a6641b03b005a00c1fa6
+  - enabled: 1
     path: Assets/Scenes/LastWord.unity
-    guid: 0dceb7184c86d1144819851d69e4b140
+    guid: b63f4a5105a65794281ea3c1f7ea02aa
+  - enabled: 1
+    path: Assets/Scenes/Minecraft.unity
+    guid: c818267e8fcc6ab449ad171686e2b8d0
+  - enabled: 1
+    path: Assets/Scenes/NutritionCart.unity
+    guid: 19cb1405b2494604fbcb79a871633e79
   - enabled: 1
     path: Assets/Scenes/Popo.unity
     guid: 483b22a13bf372847b0cd0998cc3cdcf
+  - enabled: 1
+    path: Assets/Scenes/Sale.unity
+    guid: 1088cfbccf179e74fae8c65e32697ede
+  - enabled: 1
+    path: Assets/Scenes/WordDebt.unity
+    guid: 350a0d7e40540494f86cb249f78af325
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

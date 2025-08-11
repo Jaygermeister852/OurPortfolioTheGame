@@ -1,7 +1,8 @@
 public enum CutsceneType
 {
     DoorReveal,
-    CatReveal
+    CatReveal,
+    Completion
 }
 
 public enum SceneList

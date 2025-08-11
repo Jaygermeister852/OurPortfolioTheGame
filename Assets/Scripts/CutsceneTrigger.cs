@@ -5,6 +5,7 @@ public class CutsceneTrigger : MonoBehaviour
 {
     [SerializeField] private PlayableDirector timeline; // Assign your Timeline in the Inspector
     [SerializeField] private CutsceneType type;
+    [SerializeField] private bool isTesting;
 
     private PlayerController player;
 
@@ -18,6 +19,9 @@ public class CutsceneTrigger : MonoBehaviour
         { return; }
 
         if (type == CutsceneType.CatReveal && GameManager.Instance.CatRevealTriggered)  //Checks the cutscene type against gamemanager bool
+        { return; }
+
+        if (!isTesting && type == CutsceneType.Completion && !GameManager.Instance.CollectibleManager.CheckAllCollected()) //if completion cutscene, check if all collectibles are found
         { return; }
 
         // Mark cutscene as triggered
@@ -55,6 +59,13 @@ public class CutsceneTrigger : MonoBehaviour
                     GameManager.Instance.TriggerCatRevealedEvent();
                     break;
                 }
+            case CutsceneType.Completion:
+                {
+                    GameManager.Instance.CompletionCutsceneTriggered = true;
+                    GameManager.Instance.TriggerCompletionEvent();
+                    isTesting = false;
+                    break;
+                }
         }
     }
 
@@ -69,4 +80,5 @@ public class CutsceneTrigger : MonoBehaviour
         // Unsubscribe to avoid memory leaks or double-calls on scene reload
         timeline.stopped -= OnTimelineStopped;
     }
+
 }

@@ -43,4 +43,9 @@ public class CollectibleManager : MonoBehaviour
             OnCollectibleCountChanged?.Invoke();
         }
     }
+
+    public bool CheckAllCollected() //Used by cutscene trigger
+    {
+        return CollectedCount == TotalCount;
+    }
 }

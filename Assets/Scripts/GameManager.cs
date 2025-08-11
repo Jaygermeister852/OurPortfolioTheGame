@@ -24,6 +24,7 @@ public class GameManager : MonoBehaviour
     [Header("States")]
     [SerializeField] bool _doorRevealTriggered = false;
     [SerializeField] bool _catRevealTriggered = false;
+    [SerializeField] bool _completionCutsceneTriggered = false;
 
 
 
@@ -38,6 +39,7 @@ public class GameManager : MonoBehaviour
 
     public bool DoorRevealTriggered { get { return _doorRevealTriggered; } set { _doorRevealTriggered = value; } }
     public bool CatRevealTriggered { get { return _catRevealTriggered; } set { _catRevealTriggered = value; } }
+    public bool CompletionCutsceneTriggered { get { return _completionCutsceneTriggered; } set { _completionCutsceneTriggered = value; } }
 
 
     //Cache
@@ -47,6 +49,7 @@ public class GameManager : MonoBehaviour
     //Event
     public event Action OnDoorRevealed; //Keeps the door revealed after cutscene
     public event Action OnCatRevealed; //Keeps the cat revealed after cutscene
+    public event Action OnCompletion;
 
 
 
@@ -152,5 +155,10 @@ public class GameManager : MonoBehaviour
     public void TriggerCatRevealedEvent()
     {
         OnCatRevealed?.Invoke(); // fire event once
+    }
+
+    public void TriggerCompletionEvent()
+    {
+        OnCompletion?.Invoke();  // fire event once
     }
 }
