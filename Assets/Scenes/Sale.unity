@@ -1512,7 +1512,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7370772846014076036, guid: 20240e9f889794140b1258f376f64573, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -17.105145
+      value: 1.8948555
       objectReference: {fileID: 0}
     - target: {fileID: 7370772846014076036, guid: 20240e9f889794140b1258f376f64573, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1695,28 +1695,33 @@ PrefabInstance:
       propertyPath: m_Name
       value: Intro
       objectReference: {fileID: 0}
+    - target: {fileID: 2258743202150876680, guid: 6fe8edc1595197a4cbaaef42b79aba25, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -1
+      objectReference: {fileID: 0}
     - target: {fileID: 7807236221964102719, guid: 6fe8edc1595197a4cbaaef42b79aba25, type: 3}
       propertyPath: m_text
-      value: 'IKEA''s yellow Sale visuals are hard working, but a little boring.
-
-
-
-        For
-        their first Australian film in seven years, IKEA wanted to bring their big
-        sale to life in a light-hearted way while still fitting within their established
-        Sale visual identity.'
+      value: IKEA's yellow Sale visuals are hard working, but a little boring.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7807236221964102719, guid: 6fe8edc1595197a4cbaaef42b79aba25, type: 3}
+      propertyPath: m_margin.x
+      value: 1.0199966
       objectReference: {fileID: 0}
     - target: {fileID: 7807236221964102719, guid: 6fe8edc1595197a4cbaaef42b79aba25, type: 3}
       propertyPath: m_margin.z
-      value: -5.151325
+      value: -5.8117943
+      objectReference: {fileID: 0}
+    - target: {fileID: 7807236221964102719, guid: 6fe8edc1595197a4cbaaef42b79aba25, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8895410694949789043, guid: 6fe8edc1595197a4cbaaef42b79aba25, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -28.5
+      value: -28.8
       objectReference: {fileID: 0}
     - target: {fileID: 8895410694949789043, guid: 6fe8edc1595197a4cbaaef42b79aba25, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.5
+      value: 1.2
       objectReference: {fileID: 0}
     - target: {fileID: 8895410694949789043, guid: 6fe8edc1595197a4cbaaef42b79aba25, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1816,6 +1821,83 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f4170a85af1999c4f87ca1a950d9df0f, type: 3}
+--- !u!1001 &903691973
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3477233312878767520, guid: 2d3be57940064a54f9b43516fa584885, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 11.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3477233312878767520, guid: 2d3be57940064a54f9b43516fa584885, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 16.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3477233312878767520, guid: 2d3be57940064a54f9b43516fa584885, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 16.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3477233312878767520, guid: 2d3be57940064a54f9b43516fa584885, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6757186411838585661, guid: 2d3be57940064a54f9b43516fa584885, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -9002042958458503429, guid: 2130ac238416d1640bd7a4cdbcf48c3c, type: 3}
+    - target: {fileID: 6768853173264875300, guid: 2d3be57940064a54f9b43516fa584885, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -26.52097
+      objectReference: {fileID: 0}
+    - target: {fileID: 6768853173264875300, guid: 2d3be57940064a54f9b43516fa584885, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.994706
+      objectReference: {fileID: 0}
+    - target: {fileID: 6768853173264875300, guid: 2d3be57940064a54f9b43516fa584885, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6768853173264875300, guid: 2d3be57940064a54f9b43516fa584885, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6768853173264875300, guid: 2d3be57940064a54f9b43516fa584885, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6768853173264875300, guid: 2d3be57940064a54f9b43516fa584885, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6768853173264875300, guid: 2d3be57940064a54f9b43516fa584885, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6768853173264875300, guid: 2d3be57940064a54f9b43516fa584885, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6768853173264875300, guid: 2d3be57940064a54f9b43516fa584885, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6768853173264875300, guid: 2d3be57940064a54f9b43516fa584885, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6815145376109691000, guid: 2d3be57940064a54f9b43516fa584885, type: 3}
+      propertyPath: m_Name
+      value: Image
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2d3be57940064a54f9b43516fa584885, type: 3}
 --- !u!1001 &914168663
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2956,6 +3038,73 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ba23f3adc6c0634f86ef3d2d11f5779, type: 3}
+--- !u!1001 &1404014864
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4253614474283319, guid: 6fe8edc1595197a4cbaaef42b79aba25, type: 3}
+      propertyPath: m_Name
+      value: Intro (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7807236221964102719, guid: 6fe8edc1595197a4cbaaef42b79aba25, type: 3}
+      propertyPath: m_text
+      value: For their first Australian film in seven years, IKEA wanted to bring
+        their big sale to life in a light-hearted way while still fitting within
+        their established Sale visual identity.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7807236221964102719, guid: 6fe8edc1595197a4cbaaef42b79aba25, type: 3}
+      propertyPath: m_margin.z
+      value: -5.151325
+      objectReference: {fileID: 0}
+    - target: {fileID: 8895410694949789043, guid: 6fe8edc1595197a4cbaaef42b79aba25, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8895410694949789043, guid: 6fe8edc1595197a4cbaaef42b79aba25, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8895410694949789043, guid: 6fe8edc1595197a4cbaaef42b79aba25, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8895410694949789043, guid: 6fe8edc1595197a4cbaaef42b79aba25, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8895410694949789043, guid: 6fe8edc1595197a4cbaaef42b79aba25, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8895410694949789043, guid: 6fe8edc1595197a4cbaaef42b79aba25, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8895410694949789043, guid: 6fe8edc1595197a4cbaaef42b79aba25, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8895410694949789043, guid: 6fe8edc1595197a4cbaaef42b79aba25, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8895410694949789043, guid: 6fe8edc1595197a4cbaaef42b79aba25, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8895410694949789043, guid: 6fe8edc1595197a4cbaaef42b79aba25, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6fe8edc1595197a4cbaaef42b79aba25, type: 3}
 --- !u!4 &1467065526 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6769925239539014894, guid: 2450a1e8e8556cb4e86241da67454077, type: 3}
@@ -3047,7 +3196,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8895410694949789043, guid: 6fe8edc1595197a4cbaaef42b79aba25, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -10
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 8895410694949789043, guid: 6fe8edc1595197a4cbaaef42b79aba25, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4097,7 +4246,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2040717099180573518, guid: 798cfb45c9d3cf24ca140812c76434e6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.5
+      value: 10.5
       objectReference: {fileID: 0}
     - target: {fileID: 2040717099180573518, guid: 798cfb45c9d3cf24ca140812c76434e6, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5053,6 +5202,7 @@ SceneRoots:
   - {fileID: 779014162}
   - {fileID: 1822889489}
   - {fileID: 857297887}
+  - {fileID: 1404014864}
   - {fileID: 1525809057}
   - {fileID: 1094433084}
   - {fileID: 1759908686}
@@ -5062,3 +5212,4 @@ SceneRoots:
   - {fileID: 1882496750}
   - {fileID: 1658946812}
   - {fileID: 1104682315}
+  - {fileID: 903691973}
