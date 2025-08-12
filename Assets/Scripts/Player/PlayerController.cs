@@ -60,7 +60,13 @@ public class PlayerController : MonoBehaviour
 
     private void CheckGrounded()
     {
-        isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
+        bool touchingGround = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
+
+        // Only grounded if not moving upwards
+        if (touchingGround && rb.linearVelocity.y <= 0.1f)
+            isGrounded = true;
+        else
+            isGrounded = false;
 
         animator.SetBool("IsGrounded", isGrounded);
     }
