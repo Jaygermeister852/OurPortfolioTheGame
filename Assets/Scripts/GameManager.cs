@@ -21,7 +21,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] private SceneList _lastDoorID; //registered onInteract
     private GameObject _playerInstance; //registered onsceneload
 
-    [Header("States")]
+    [Header("Game States")]
+    [SerializeField] bool _splashShown = false;
     [SerializeField] bool _doorRevealTriggered = false;
     [SerializeField] bool _catRevealTriggered = false;
     [SerializeField] bool _completionCutsceneTriggered = false;
@@ -37,6 +38,9 @@ public class GameManager : MonoBehaviour
 
     public SceneList LastDoorID { get { return _lastDoorID; } set { _lastDoorID = value; } }
 
+
+    //Game State Properties
+    public bool SplashShown { get { return _splashShown; } set { _splashShown = value; } }
     public bool DoorRevealTriggered { get { return _doorRevealTriggered; } set { _doorRevealTriggered = value; } }
     public bool CatRevealTriggered { get { return _catRevealTriggered; } set { _catRevealTriggered = value; } }
     public bool CompletionCutsceneTriggered { get { return _completionCutsceneTriggered; } set { _completionCutsceneTriggered = value; } }
