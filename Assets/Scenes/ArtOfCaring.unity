@@ -206,7 +206,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3398855312387846859, guid: 798cfb45c9d3cf24ca140812c76434e6, type: 3}
       propertyPath: m_Url
-      value: https://github.com/Jaygermeister852/OurPortfolioTheGame/raw/refs/heads/master/docs/Videos/ArtOfCaring/Artofcaring.webm
+      value: Videos/ArtOfCaring/Artofcaring.webm
       objectReference: {fileID: 0}
     - target: {fileID: 3771287197811623739, guid: 798cfb45c9d3cf24ca140812c76434e6, type: 3}
       propertyPath: m_Name
