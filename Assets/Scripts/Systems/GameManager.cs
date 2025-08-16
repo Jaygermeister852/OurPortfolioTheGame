@@ -23,6 +23,7 @@ public class GameManager : MonoBehaviour
 
     [Header("Game States")]
     [SerializeField] bool _splashShown = false;
+    [SerializeField] bool _splashIsShowing = false;
     [SerializeField] bool _doorRevealTriggered = false;
     [SerializeField] bool _catRevealTriggered = false;
     [SerializeField] bool _completionCutsceneTriggered = false;
@@ -41,6 +42,7 @@ public class GameManager : MonoBehaviour
 
     //Game State Properties
     public bool SplashShown { get { return _splashShown; } set { _splashShown = value; } }
+    public bool SplashIsShowing { get { return _splashIsShowing; } set { _splashIsShowing = value; } }
     public bool DoorRevealTriggered { get { return _doorRevealTriggered; } set { _doorRevealTriggered = value; } }
     public bool CatRevealTriggered { get { return _catRevealTriggered; } set { _catRevealTriggered = value; } }
     public bool CompletionCutsceneTriggered { get { return _completionCutsceneTriggered; } set { _completionCutsceneTriggered = value; } }

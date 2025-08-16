@@ -39,6 +39,16 @@ public class PlayerController : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
+
+    void OnEnable()
+    {
+        if (GameManager.Instance.SplashIsShowing)
+        {
+            SetFrozen(true);
+        }
+    }
+
+
     private void FixedUpdate()
     {
         CheckGrounded();
@@ -120,6 +130,20 @@ public class PlayerController : MonoBehaviour
             rb.constraints = RigidbodyConstraints2D.FreezeRotation; // back to normal gameplay (only lock rotation)
         }
     }
+
+
+    // ------------------- Splash screen movement lock -------------------
+
+    private void HandleSplashStart()
+    {
+        SetFrozen(true);
+    }
+
+    private void HandleSplashEnd()
+    {
+        SetFrozen(false);
+    }
+
 
 
     // ------------------- Input System -------------------

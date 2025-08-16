@@ -1,6 +1,7 @@
 using UnityEngine;
 using TMPro;
 using DG.Tweening;
+using System;
 
 public class SplashScreen : MonoBehaviour
 {
@@ -24,21 +25,36 @@ public class SplashScreen : MonoBehaviour
             return;
         }
 
-
         GameManager.Instance.SplashShown = true;
 
+
+        GameManager.Instance.SplashIsShowing = true;
+
+
+        //SHows Splash
         if (splashCanvas == null)
             splashCanvas = GetComponent<CanvasGroup>();
 
         splashCanvas.alpha = 1f;
         splashText.alpha = 0f;
 
+
+
         splashText.DOFade(1, fadeDuration);
 
         DOTween.Sequence()
             .AppendInterval(displayTime)
             .Append(splashCanvas.DOFade(0f, fadeDuration))
-            .OnComplete(() => gameObject.SetActive(false));
+            .OnComplete(() =>
+            {
+                gameObject.SetActive(false); //Disables Splash
+                GameManager.Instance.SplashIsShowing = false;
+
+                //Unfreeze player
+                var player = GameManager.Instance.PlayerInstance?.GetComponent<PlayerController>();
+                if (player != null)
+                    player.SetFrozen(false);
+            });
     }
 
 
